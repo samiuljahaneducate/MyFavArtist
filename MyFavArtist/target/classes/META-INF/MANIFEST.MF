@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: MyFavArtist
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: samiul
+Implementation-Vendor-Id: com.samiul.services.favartist
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/room-services
+Created-By: Maven Integration for Eclipse
+

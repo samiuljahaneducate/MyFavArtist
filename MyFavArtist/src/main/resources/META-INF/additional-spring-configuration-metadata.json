@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "lastfm.artist.getinfo",
+    "type": "java.lang.String",
+    "description": "A description for 'lastfm.artist.getinfo'"
+  },
+  {
+    "name": "lastfm.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'lastfm.api.key'"
+  },
+  {
+    "name": "lastfm.geo.gettoptracks",
+    "type": "java.lang.String",
+    "description": "A description for 'lastfm.geo.gettoptracks'"
+  }
+]}
