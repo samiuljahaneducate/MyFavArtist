@@ -29,7 +29,7 @@ public class FavArtistController {
 	private FavArtistService favArtistService;
    
 	@RequestMapping(value = "/get/{artistName}", method = RequestMethod.GET)
-    @ApiOperation(value="Get Artist Info", notes= "Gets info of an artist", nickname="getArtistInfo")
+    	@ApiOperation(value="Get Artist Info", notes= "Gets info of an artist", nickname="getArtistInfo")
 
 	public ResponseEntity<?>  getArtistInfo( @PathVariable(name = "artistName", required = true) final String artistName){		
 	    return favArtistService.getArtistInfo(artistName);
