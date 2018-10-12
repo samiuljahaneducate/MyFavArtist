@@ -23,13 +23,13 @@ public class MyFavArtistApplication {
 	}
 	
 	@Bean
-    public Docket api(){
+    	public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2).groupName("Artist").select()
                 .apis(RequestHandlerSelectors.basePackage("com.samiul.artist"))               
                 .paths(any()).build().apiInfo(new ApiInfo("Favorite Artis",
                         "API to provide information about an artist", "1.0.0", null,
                         new Contact("Samiul Jahan", "https://samiuljahan@gmail.com", null),null, null));
-    }
+    	}
 	
 	@Bean
 	public RestTemplate restTemplate() {
